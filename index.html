@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body>
 
     <!-- Начало: Данный блок удалять нельзя -->
@@ -15,18 +18,50 @@
         </a>
         <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+                пользователь получил оплату за верстку этого макета.
             </p>
         </div>
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
+    <div class="main page">
+        <header class="header">
+            <li class="header__logo"><img src="../Template/img/Group 422.svg" alt="logo"></li>
+            <ul class="header__navbar">
+                <li class="header__item">Home</li>
+                <li class="header__item">Property</li>
+                <li class="header__item">About</li>
+                <li class="header__item">Service</li>
+                <li class="header__item">Contact</li>
+            </ul>
+            <button class="header__button header__button_transparent">Sign in</button>
+            <button class="header__button">Login</button>
+        </header>
+        <section class="intro">
+            <p>REAL ESTATE</p>
+            <h1 class="intro__title">Let's hunt for your dream residence</h1>
+            <p class="intro__desc">Explore our range of beautiful properties with the addition of separate accommodation
+                suitable for you.</p>
+                <button class="intro__button">Buy</button>
+                <button class="intro__button">Rent</button>
+                <form class="intro__form">
+                    <label for="buy">Location</label>
+                    <input type="text" id="buy" list="buy-opt" placeholder="Bogor, Jawa Barat">
+                   <datalist id="buy-opt">
+                    <option>Bogor, Jawa Barat</option>
+                   </datalist>
+                </form>
+        </section>
+        <footer>
+
+        </footer>
     </div>
 
 </body>
+
 </html>

@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../css/main.css);
+@import url(../css/page.css);
+@import url(../css/header.css);
+@import url(../css/intro.css);
+@import url(../css/photo.css);
+@import url(../css/skills.css);
+@import url(../css/design.css);
+@import url(../css/protfolio.css);
+@import url(../css/contactMe.css);
+@import url(../css/whyMe.css);
+@import url(../css/soft-skills.css);
+@import url(../css/contacts.css);
+@import url(../css/footer.css);

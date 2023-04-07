@@ -1,0 +1,17 @@
+.page {
+  font-family: "Poppins", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
