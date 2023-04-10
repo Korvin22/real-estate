@@ -85,8 +85,3 @@
   margin-right: 132px;
 }
 
-label,
-input {
-  display: flex;
-  flex-direction: column;
-}

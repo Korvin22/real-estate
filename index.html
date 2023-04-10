@@ -43,19 +43,44 @@
             <button class="header__button">Login</button>
         </header>
         <section class="intro">
-            <p>REAL ESTATE</p>
+            <p class="intro__direction">REAL ESTATE</p>
             <h1 class="intro__title">Let's hunt for your dream residence</h1>
             <p class="intro__desc">Explore our range of beautiful properties with the addition of separate accommodation
                 suitable for you.</p>
-                <button class="intro__button">Buy</button>
+            <div class="intro__options">
+                <button class="intro__button intro__button_active">Buy</button>
                 <button class="intro__button">Rent</button>
-                <form class="intro__form">
-                    <label for="buy">Location</label>
-                    <input type="text" id="buy" list="buy-opt" placeholder="Bogor, Jawa Barat">
-                   <datalist id="buy-opt">
+            </div>
+            <form class="intro__form">
+                <label class="intro__label" for="buy">Location
+                    <input class="intro__input" type="text" id="buy" list="buy-opt" placeholder="Bogor, Jawa Barat">
+                </label>
+                <datalist class="intro__datalist" id="buy-opt">
                     <option>Bogor, Jawa Barat</option>
-                   </datalist>
-                </form>
+                </datalist>
+                <label class="intro__label" for="type">Type
+                    <input class="intro__input intro__input_type" type="text" id="type" list="type-opt"
+                        placeholder="Home">
+                </label>
+                <datalist id="type-opt" class="intro__datalist">
+                    <option>Home</option>
+                </datalist>
+                <label class="intro__label" for="price">Price
+                    <input class="intro__input intro__input_price" type="text" id="price" list="price-opt"
+                        placeholder="$200-$350">
+                </label>
+                <datalist id="price-opt" class="intro__datalist">
+                    <option appearance="none">$200-$350</option>
+                </datalist>
+                <button class="intro__search-button">Search</button>
+            </form>
+            <img class="intro__image" src="./img/bernard-hermant-KqOLr8OiQLU-unsplash 1.svg" alt="house">
+        </section>
+        <section class="discover">
+            <p class="intro__direction intro__direction_gray">DISCOVER</p>
+            <h1 class="intro__title">Best recomendation</h1>
+            <p class="intro__desc">Discover our exclusive selection of the finest one-of-a-kind luxury properties
+                architectural masterpieces.</p>
         </section>
         <footer>
 
